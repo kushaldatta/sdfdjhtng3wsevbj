@@ -1,0 +1,16 @@
+h1 {
+    font-size: 40px !important;
+    color: blue;
+}
+
+canvas {
+    border: 3px dotted black;
+    animation-name: color_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color_animation {
+    from {box-shadow: 5px 5px 40px orange;}
+    to {box-shadow: 5px 5px 40px purple;}
+}
